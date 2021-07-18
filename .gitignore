@@ -133,3 +133,5 @@ cmake-build/
 stage/
 releases/
 /.metadata/
+
+*BuildLog.htm
