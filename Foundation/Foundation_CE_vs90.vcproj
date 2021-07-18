@@ -8,12 +8,12 @@
 	Keyword="Win32Proj">
 	<Platforms>
 		<Platform
-			Name="Digi JumpStart (ARMV4I)"/>
+			Name="Toradex_CE700 (ARMv4I)"/>
 	</Platforms>
 	<ToolFiles/>
 	<Configurations>
 		<Configuration
-			Name="debug_shared|Digi JumpStart (ARMV4I)"
+			Name="debug_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
@@ -91,7 +91,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="release_shared|Digi JumpStart (ARMV4I)"
+			Name="release_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
@@ -170,7 +170,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+			Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -235,7 +235,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="release_static_mt|Digi JumpStart (ARMV4I)"
+			Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -301,7 +301,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="debug_static_md|Digi JumpStart (ARMV4I)"
+			Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -366,7 +366,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="release_static_md|Digi JumpStart (ARMV4I)"
+			Name="release_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -447,37 +447,37 @@
 				<File
 					RelativePath=".\src\ByteOrder.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -494,37 +494,37 @@
 				<File
 					RelativePath=".\src\Environment_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -533,37 +533,37 @@
 				<File
 					RelativePath=".\src\Environment_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -572,37 +572,37 @@
 				<File
 					RelativePath=".\src\Environment_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -619,37 +619,37 @@
 				<File
 					RelativePath=".\src\FPEnvironment_C99.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -658,37 +658,37 @@
 				<File
 					RelativePath=".\src\FPEnvironment_DEC.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -697,37 +697,37 @@
 				<File
 					RelativePath=".\src\FPEnvironment_DUMMY.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -736,37 +736,37 @@
 				<File
 					RelativePath=".\src\FPEnvironment_SUN.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -775,37 +775,37 @@
 				<File
 					RelativePath=".\src\FPEnvironment_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -830,37 +830,37 @@
 				<File
 					RelativePath=".\src\String.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1016,37 +1016,37 @@
 				<File
 					RelativePath=".\src\FileStream_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1055,37 +1055,37 @@
 				<File
 					RelativePath=".\src\FileStream_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1226,37 +1226,37 @@
 				<File
 					RelativePath=".\src\Event_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1265,37 +1265,37 @@
 				<File
 					RelativePath=".\src\Event_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1306,37 +1306,37 @@
 				<File
 					RelativePath=".\src\Mutex_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1345,37 +1345,37 @@
 				<File
 					RelativePath=".\src\Mutex_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1388,37 +1388,37 @@
 				<File
 					RelativePath=".\src\RWLock_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1427,37 +1427,37 @@
 				<File
 					RelativePath=".\src\RWLock_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1468,37 +1468,37 @@
 				<File
 					RelativePath=".\src\Semaphore_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1507,37 +1507,37 @@
 				<File
 					RelativePath=".\src\Semaphore_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1546,37 +1546,37 @@
 				<File
 					RelativePath=".\src\SignalHandler.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1589,37 +1589,37 @@
 				<File
 					RelativePath=".\src\Thread_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1628,37 +1628,37 @@
 				<File
 					RelativePath=".\src\Thread_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1795,37 +1795,37 @@
 				<File
 					RelativePath=".\src\SharedLibrary_HPUX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1834,37 +1834,37 @@
 				<File
 					RelativePath=".\src\SharedLibrary_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1873,37 +1873,37 @@
 				<File
 					RelativePath=".\src\SharedLibrary_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -1912,37 +1912,37 @@
 				<File
 					RelativePath=".\src\SharedLibrary_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2069,37 +2069,37 @@
 				<File
 					RelativePath=".\src\LogFile_STD.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2108,37 +2108,37 @@
 				<File
 					RelativePath=".\src\LogFile_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2147,37 +2147,37 @@
 				<File
 					RelativePath=".\src\LogFile_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2210,37 +2210,37 @@
 				<File
 					RelativePath=".\src\SyslogChannel.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2315,42 +2315,42 @@
 				<File
 					RelativePath=".\src\pocomsg.mc">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)">
+						Name="debug_shared|Toradex_CE700 (ARMv4I)">
 						<Tool
 							Name="VCCustomBuildTool"
 							CommandLine="mc -h &quot;$(InputDir).&quot; -r &quot;$(InputDir).&quot; &quot;$(InputPath)&#xD;&#xA;"
 							Outputs="$(InputDir)\pocomsg.rc;$(InputDir)\pocomsg.h;"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)">
+						Name="release_shared|Toradex_CE700 (ARMv4I)">
 						<Tool
 							Name="VCCustomBuildTool"
 							CommandLine="mc -h &quot;$(InputDir).&quot; -r &quot;$(InputDir).&quot; &quot;$(InputPath)&#xD;&#xA;"
 							Outputs="$(InputDir)\pocomsg.rc;$(InputDir)\pocomsg.h;"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)">
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)">
 						<Tool
 							Name="VCCustomBuildTool"
 							CommandLine="mc -h &quot;$(InputDir).&quot; -r &quot;$(InputDir).&quot; &quot;$(InputPath)&#xD;&#xA;"
 							Outputs="$(InputDir)\pocomsg.rc;$(InputDir)\pocomsg.h;"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)">
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)">
 						<Tool
 							Name="VCCustomBuildTool"
 							CommandLine="mc -h &quot;$(InputDir).&quot; -r &quot;$(InputDir).&quot; &quot;$(InputPath)&#xD;&#xA;"
 							Outputs="$(InputDir)\pocomsg.rc;$(InputDir)\pocomsg.h;"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)">
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)">
 						<Tool
 							Name="VCCustomBuildTool"
 							CommandLine="mc -h &quot;$(InputDir).&quot; -r &quot;$(InputDir).&quot; &quot;$(InputPath)&#xD;&#xA;"
 							Outputs="$(InputDir)\pocomsg.rc;$(InputDir)\pocomsg.h;"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)">
+						Name="release_static_md|Toradex_CE700 (ARMv4I)">
 						<Tool
 							Name="VCCustomBuildTool"
 							CommandLine="mc -h &quot;$(InputDir).&quot; -r &quot;$(InputDir).&quot; &quot;$(InputPath)&#xD;&#xA;"
@@ -2410,37 +2410,37 @@
 				<File
 					RelativePath=".\src\DirectoryIterator_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2449,37 +2449,37 @@
 				<File
 					RelativePath=".\src\DirectoryIterator_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2488,37 +2488,37 @@
 				<File
 					RelativePath=".\src\DirectoryIterator_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2531,37 +2531,37 @@
 				<File
 					RelativePath=".\src\File_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2570,37 +2570,37 @@
 				<File
 					RelativePath=".\src\File_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2609,37 +2609,37 @@
 				<File
 					RelativePath=".\src\File_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2652,37 +2652,37 @@
 				<File
 					RelativePath=".\src\Path_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2691,37 +2691,37 @@
 				<File
 					RelativePath=".\src\Path_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2730,37 +2730,37 @@
 				<File
 					RelativePath=".\src\Path_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2812,37 +2812,37 @@
 				<File
 					RelativePath=".\src\NamedEvent_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2851,37 +2851,37 @@
 				<File
 					RelativePath=".\src\NamedEvent_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2890,37 +2890,37 @@
 				<File
 					RelativePath=".\src\NamedEvent_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2931,37 +2931,37 @@
 				<File
 					RelativePath=".\src\NamedMutex_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -2970,37 +2970,37 @@
 				<File
 					RelativePath=".\src\NamedMutex_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3009,37 +3009,37 @@
 				<File
 					RelativePath=".\src\NamedMutex_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3052,37 +3052,37 @@
 				<File
 					RelativePath=".\src\PipeImpl_DUMMY.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3091,37 +3091,37 @@
 				<File
 					RelativePath=".\src\PipeImpl_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3130,37 +3130,37 @@
 				<File
 					RelativePath=".\src\PipeImpl_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3173,37 +3173,37 @@
 				<File
 					RelativePath=".\src\Process_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3212,37 +3212,37 @@
 				<File
 					RelativePath=".\src\Process_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3251,37 +3251,37 @@
 				<File
 					RelativePath=".\src\Process_WIN32U.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3292,37 +3292,37 @@
 				<File
 					RelativePath=".\src\SharedMemory_DUMMY.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3331,37 +3331,37 @@
 				<File
 					RelativePath=".\src\SharedMemory_POSIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3370,37 +3370,37 @@
 				<File
 					RelativePath=".\src\SharedMemory_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3499,37 +3499,37 @@
 				<File
 					RelativePath=".\src\Timezone_UNIX.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3538,37 +3538,37 @@
 				<File
 					RelativePath=".\src\Timezone_WIN32.cpp">
 					<FileConfiguration
-						Name="debug_shared|Digi JumpStart (ARMV4I)"
+						Name="debug_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_shared|Digi JumpStart (ARMV4I)"
+						Name="release_shared|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+						Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_mt|Digi JumpStart (ARMV4I)"
+						Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="debug_static_md|Digi JumpStart (ARMV4I)"
+						Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
 					<FileConfiguration
-						Name="release_static_md|Digi JumpStart (ARMV4I)"
+						Name="release_static_md|Toradex_CE700 (ARMv4I)"
 						ExcludedFromBuild="true">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3886,35 +3886,35 @@
 		<File
 			RelativePath="..\DLLVersion.rc">
 			<FileConfiguration
-				Name="debug_shared|Digi JumpStart (ARMV4I)">
+				Name="debug_shared|Toradex_CE700 (ARMv4I)">
 				<Tool
 					Name="VCResourceCompilerTool"/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="release_shared|Digi JumpStart (ARMV4I)">
+				Name="release_shared|Toradex_CE700 (ARMv4I)">
 				<Tool
 					Name="VCResourceCompilerTool"/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+				Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 				ExcludedFromBuild="true">
 				<Tool
 					Name="VCResourceCompilerTool"/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="release_static_mt|Digi JumpStart (ARMV4I)"
+				Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 				ExcludedFromBuild="true">
 				<Tool
 					Name="VCResourceCompilerTool"/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="debug_static_md|Digi JumpStart (ARMV4I)"
+				Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 				ExcludedFromBuild="true">
 				<Tool
 					Name="VCResourceCompilerTool"/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="release_static_md|Digi JumpStart (ARMV4I)"
+				Name="release_static_md|Toradex_CE700 (ARMv4I)"
 				ExcludedFromBuild="true">
 				<Tool
 					Name="VCResourceCompilerTool"/>

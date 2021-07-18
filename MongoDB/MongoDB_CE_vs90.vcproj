@@ -8,12 +8,12 @@
 	Keyword="Win32Proj">
 	<Platforms>
 		<Platform
-			Name="Digi JumpStart (ARMV4I)"/>
+			Name="Toradex_CE700 (ARMv4I)"/>
 	</Platforms>
 	<ToolFiles/>
 	<Configurations>
 		<Configuration
-			Name="debug_shared|Digi JumpStart (ARMV4I)"
+			Name="debug_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
@@ -90,7 +90,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="release_shared|Digi JumpStart (ARMV4I)"
+			Name="release_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
@@ -168,7 +168,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="debug_static_mt|Digi JumpStart (ARMV4I)"
+			Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -232,7 +232,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="release_static_mt|Digi JumpStart (ARMV4I)"
+			Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -297,7 +297,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="debug_static_md|Digi JumpStart (ARMV4I)"
+			Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
@@ -361,7 +361,7 @@
 			<DebuggerTool/>
 		</Configuration>
 		<Configuration
-			Name="release_static_md|Digi JumpStart (ARMV4I)"
+			Name="release_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
