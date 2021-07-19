@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
-	Name="JSON"
-	Version="9.00"
 	ProjectType="Visual C++"
+	Version="9,00"
+	Name="JSON"
 	ProjectGUID="{0E7FE914-0690-3EB4-9119-93A97CC97741}"
 	RootNamespace="JSON"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Toradex_CE700 (ARMv4I)"/>
+			Name="Toradex_CE700 (ARMv4I)"
+		/>
 	</Platforms>
-	<ToolFiles/>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="debug_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;$(ProjectName)_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;JSON_EXPORTS"
@@ -42,17 +53,18 @@
 				RuntimeTypeInfo="true"
 				WarningLevel="3"
 				DebugInformationFormat="3"
-				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+				DisableSpecificWarnings="4800"
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"/>
+				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/FORCE:MULTIPLE "
@@ -70,46 +82,62 @@
 				EnableCOMDATFolding="0"
 				RandomizedBaseAddress="1"
 				ImportLibrary="..\lib\$(PlatformName)\PocoJSONd.lib"
-				TargetMachine="0"/>
+				TargetMachine="0"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -123,16 +151,17 @@
 				WarningLevel="3"
 				DebugInformationFormat="3"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"/>
+				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/FORCE:MULTIPLE "
@@ -149,46 +178,62 @@
 				OptimizeReferences="0"
 				EnableCOMDATFolding="0"
 				ImportLibrary="..\lib\$(PlatformName)\PocoJSON.lib"
-				TargetMachine="0"/>
+				TargetMachine="0"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;POCO_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;"
@@ -203,57 +248,74 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoJSONmtd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoJSONmtd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -269,57 +331,74 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoJSONmt.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoJSONmt.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;POCO_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;"
@@ -334,57 +413,74 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoJSONmdd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoJSONmdd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -400,180 +496,258 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoJSONmd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoJSONmd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 	</Configurations>
-	<References/>
+	<References>
+	</References>
 	<Files>
 		<Filter
-			Name="Source Files">
+			Name="Source Files"
+			>
 			<File
-				RelativePath=".\src\Array.cpp"/>
+				RelativePath=".\src\Array.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\Handler.cpp"/>
+				RelativePath=".\src\Handler.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\JSONException.cpp"/>
+				RelativePath=".\src\JSONException.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\Object.cpp"/>
+				RelativePath=".\src\Object.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\ParseHandler.cpp"/>
+				RelativePath=".\src\ParseHandler.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\Parser.cpp"/>
+				RelativePath=".\src\Parser.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\ParserImpl.cpp"/>
+				RelativePath=".\src\ParserImpl.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\pdjson.c">
+				RelativePath=".\src\pdjson.c"
+				>
 				<FileConfiguration
-					Name="debug_shared|Toradex_CE700 (ARMv4I)">
+					Name="debug_shared|Toradex_CE700 (ARMv4I)"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
 						ForceConformanceInForLoopScope="true"
-						CompileAs="2"/>
+						CompileAs="2"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="release_shared|Toradex_CE700 (ARMv4I)">
+					Name="release_shared|Toradex_CE700 (ARMv4I)"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
 						ForceConformanceInForLoopScope="true"
-						CompileAs="2"/>
+						CompileAs="2"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="debug_static_mt|Toradex_CE700 (ARMv4I)">
+					Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
 						ForceConformanceInForLoopScope="true"
-						CompileAs="2"/>
+						CompileAs="2"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="release_static_mt|Toradex_CE700 (ARMv4I)">
+					Name="release_static_mt|Toradex_CE700 (ARMv4I)"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
 						ForceConformanceInForLoopScope="true"
-						CompileAs="2"/>
+						CompileAs="2"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="debug_static_md|Toradex_CE700 (ARMv4I)">
+					Name="debug_static_md|Toradex_CE700 (ARMv4I)"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
 						ForceConformanceInForLoopScope="true"
-						CompileAs="2"/>
+						CompileAs="2"
+					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="release_static_md|Toradex_CE700 (ARMv4I)">
+					Name="release_static_md|Toradex_CE700 (ARMv4I)"
+					>
 					<Tool
 						Name="VCCLCompilerTool"
 						ForceConformanceInForLoopScope="true"
-						CompileAs="2"/>
+						CompileAs="2"
+					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath=".\src\PrintHandler.cpp"/>
+				RelativePath=".\src\PrintHandler.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\Query.cpp"/>
+				RelativePath=".\src\Query.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\Stringifier.cpp"/>
+				RelativePath=".\src\Stringifier.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\Template.cpp"/>
+				RelativePath=".\src\Template.cpp"
+				>
+			</File>
 			<File
-				RelativePath=".\src\TemplateCache.cpp"/>
+				RelativePath=".\src\TemplateCache.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
-			Name="Header Files">
+			Name="Header Files"
+			>
 			<File
-				RelativePath=".\include\Poco\JSON\Array.h"/>
+				RelativePath=".\include\Poco\JSON\Array.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\Handler.h"/>
+				RelativePath=".\include\Poco\JSON\Handler.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\JSON.h"/>
+				RelativePath=".\include\Poco\JSON\JSON.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\JSONException.h"/>
+				RelativePath=".\include\Poco\JSON\JSONException.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\Object.h"/>
+				RelativePath=".\include\Poco\JSON\Object.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\ParseHandler.h"/>
+				RelativePath=".\include\Poco\JSON\ParseHandler.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\Parser.h"/>
+				RelativePath=".\include\Poco\JSON\Parser.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\ParserImpl.h"/>
+				RelativePath=".\include\Poco\JSON\ParserImpl.h"
+				>
+			</File>
 			<File
-				RelativePath=".\src\pdjson.h"/>
+				RelativePath=".\src\pdjson.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\PrintHandler.h"/>
+				RelativePath=".\include\Poco\JSON\PrintHandler.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\Query.h"/>
+				RelativePath=".\include\Poco\JSON\Query.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\Stringifier.h"/>
+				RelativePath=".\include\Poco\JSON\Stringifier.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\Template.h"/>
+				RelativePath=".\include\Poco\JSON\Template.h"
+				>
+			</File>
 			<File
-				RelativePath=".\include\Poco\JSON\TemplateCache.h"/>
+				RelativePath=".\include\Poco\JSON\TemplateCache.h"
+				>
+			</File>
 		</Filter>
 		<File
-			RelativePath="..\DLLVersion.rc">
-			<FileConfiguration
-				Name="debug_shared|Toradex_CE700 (ARMv4I)">
-				<Tool
-					Name="VCResourceCompilerTool"/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="release_shared|Toradex_CE700 (ARMv4I)">
-				<Tool
-					Name="VCResourceCompilerTool"/>
-			</FileConfiguration>
+			RelativePath="..\DLLVersion.rc"
+			>
 			<FileConfiguration
 				Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="release_static_mt|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="debug_static_md|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="release_static_md|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 		</File>
 	</Files>
-	<Globals/>
+	<Globals>
+	</Globals>
 </VisualStudioProject>

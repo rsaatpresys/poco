@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
-	Name="Zip"
-	Version="9.00"
 	ProjectType="Visual C++"
+	Version="9,00"
+	Name="Zip"
 	ProjectGUID="{4AC75EAD-BFCF-41E6-AB1F-0DA203CC7C61}"
 	RootNamespace="Zip"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Toradex_CE700 (ARMv4I)"/>
+			Name="Toradex_CE700 (ARMv4I)"
+		/>
 	</Platforms>
-	<ToolFiles/>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="debug_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;$(ProjectName)_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;Zip_EXPORTS"
@@ -43,16 +54,17 @@
 				WarningLevel="3"
 				DebugInformationFormat="3"
 				DisableSpecificWarnings="4800;4244;4267"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"/>
+				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/FORCE:MULTIPLE "
@@ -70,46 +82,62 @@
 				EnableCOMDATFolding="0"
 				RandomizedBaseAddress="1"
 				ImportLibrary="..\lib\$(PlatformName)\PocoZipd.lib"
-				TargetMachine="0"/>
+				TargetMachine="0"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -123,16 +151,17 @@
 				WarningLevel="3"
 				DebugInformationFormat="3"
 				DisableSpecificWarnings="4800;4244;4267"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"/>
+				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/FORCE:MULTIPLE "
@@ -149,46 +178,62 @@
 				OptimizeReferences="0"
 				EnableCOMDATFolding="0"
 				ImportLibrary="..\lib\$(PlatformName)\PocoZip.lib"
-				TargetMachine="0"/>
+				TargetMachine="0"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;POCO_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;"
@@ -203,57 +248,74 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;4244;4267"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoZipmtd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoZipmtd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -269,57 +331,74 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;4244;4267"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoZipmt.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoZipmt.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;POCO_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;"
@@ -334,57 +413,74 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;4244;4267"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoZipmdd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoZipmdd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -400,185 +496,292 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;4244;4267"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoZipmd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoZipmd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 	</Configurations>
-	<References/>
+	<References>
+	</References>
 	<Files>
 		<Filter
-			Name="Zip">
+			Name="Zip"
+			>
 			<Filter
-				Name="Header Files">
+				Name="Header Files"
+				>
 				<File
-					RelativePath=".\include\Poco\Zip\AutoDetectStream.h"/>
+					RelativePath=".\include\Poco\Zip\AutoDetectStream.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Compress.h"/>
+					RelativePath=".\include\Poco\Zip\Compress.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Decompress.h"/>
+					RelativePath=".\include\Poco\Zip\Decompress.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ParseCallback.h"/>
+					RelativePath=".\include\Poco\Zip\ParseCallback.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\PartialStream.h"/>
+					RelativePath=".\include\Poco\Zip\PartialStream.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\SkipCallback.h"/>
+					RelativePath=".\include\Poco\Zip\SkipCallback.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Zip.h"/>
+					RelativePath=".\include\Poco\Zip\Zip.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipArchive.h"/>
+					RelativePath=".\include\Poco\Zip\ZipArchive.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipArchiveInfo.h"/>
+					RelativePath=".\include\Poco\Zip\ZipArchiveInfo.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipCommon.h"/>
+					RelativePath=".\include\Poco\Zip\ZipCommon.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipDataInfo.h"/>
+					RelativePath=".\include\Poco\Zip\ZipDataInfo.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipException.h"/>
+					RelativePath=".\include\Poco\Zip\ZipException.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipFileInfo.h"/>
+					RelativePath=".\include\Poco\Zip\ZipFileInfo.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipLocalFileHeader.h"/>
+					RelativePath=".\include\Poco\Zip\ZipLocalFileHeader.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipStream.h"/>
+					RelativePath=".\include\Poco\Zip\ZipStream.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipUtil.h"/>
+					RelativePath=".\include\Poco\Zip\ZipUtil.h"
+					>
+				</File>
 			</Filter>
 			<Filter
-				Name="Source Files">
+				Name="Source Files"
+				>
 				<File
-					RelativePath=".\src\AutoDetectStream.cpp"/>
+					RelativePath=".\src\AutoDetectStream.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\Compress.cpp"/>
+					RelativePath=".\src\Compress.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\Decompress.cpp"/>
+					RelativePath=".\src\Decompress.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ParseCallback.cpp"/>
+					RelativePath=".\src\ParseCallback.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\PartialStream.cpp"/>
+					RelativePath=".\src\PartialStream.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\SkipCallback.cpp"/>
+					RelativePath=".\src\SkipCallback.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipArchive.cpp"/>
+					RelativePath=".\src\ZipArchive.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipArchiveInfo.cpp"/>
+					RelativePath=".\src\ZipArchiveInfo.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipCommon.cpp"/>
+					RelativePath=".\src\ZipCommon.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipDataInfo.cpp"/>
+					RelativePath=".\src\ZipDataInfo.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipException.cpp"/>
+					RelativePath=".\src\ZipException.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipFileInfo.cpp"/>
+					RelativePath=".\src\ZipFileInfo.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipLocalFileHeader.cpp"/>
+					RelativePath=".\src\ZipLocalFileHeader.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipStream.cpp"/>
+					RelativePath=".\src\ZipStream.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipUtil.cpp"/>
+					RelativePath=".\src\ZipUtil.cpp"
+					>
+				</File>
 			</Filter>
 		</Filter>
 		<Filter
-			Name="Manipulation">
+			Name="Manipulation"
+			>
 			<Filter
-				Name="Header Files">
+				Name="Header Files"
+				>
 				<File
-					RelativePath=".\include\Poco\Zip\Add.h"/>
+					RelativePath=".\include\Poco\Zip\Add.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Delete.h"/>
+					RelativePath=".\include\Poco\Zip\Delete.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Keep.h"/>
+					RelativePath=".\include\Poco\Zip\Keep.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Rename.h"/>
+					RelativePath=".\include\Poco\Zip\Rename.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\Replace.h"/>
+					RelativePath=".\include\Poco\Zip\Replace.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipManipulator.h"/>
+					RelativePath=".\include\Poco\Zip\ZipManipulator.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Zip\ZipOperation.h"/>
+					RelativePath=".\include\Poco\Zip\ZipOperation.h"
+					>
+				</File>
 			</Filter>
 			<Filter
-				Name="Source Files">
+				Name="Source Files"
+				>
 				<File
-					RelativePath=".\src\Add.cpp"/>
+					RelativePath=".\src\Add.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\Delete.cpp"/>
+					RelativePath=".\src\Delete.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\Keep.cpp"/>
+					RelativePath=".\src\Keep.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\Rename.cpp"/>
+					RelativePath=".\src\Rename.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\Replace.cpp"/>
+					RelativePath=".\src\Replace.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipManipulator.cpp"/>
+					RelativePath=".\src\ZipManipulator.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ZipOperation.cpp"/>
+					RelativePath=".\src\ZipOperation.cpp"
+					>
+				</File>
 			</Filter>
 		</Filter>
 		<File
-			RelativePath="..\DLLVersion.rc">
-			<FileConfiguration
-				Name="debug_shared|Toradex_CE700 (ARMv4I)">
-				<Tool
-					Name="VCResourceCompilerTool"/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="release_shared|Toradex_CE700 (ARMv4I)">
-				<Tool
-					Name="VCResourceCompilerTool"/>
-			</FileConfiguration>
+			RelativePath="..\DLLVersion.rc"
+			>
 			<FileConfiguration
 				Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="release_static_mt|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="debug_static_md|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="release_static_md|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 		</File>
 	</Files>
-	<Globals/>
+	<Globals>
+	</Globals>
 </VisualStudioProject>

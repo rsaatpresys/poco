@@ -1,40 +1,52 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
-	Name="Crypto"
-	Version="9.00"
 	ProjectType="Visual C++"
+	Version="9,00"
+	Name="Crypto"
 	ProjectGUID="{EEEE7259-32E9-4D56-B023-C733940AB2A0}"
 	RootNamespace="Crypto"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Toradex_CE700 (ARMv4I)"/>
+			Name="Toradex_CE700 (ARMv4I)"
+		/>
 	</Platforms>
-	<ToolFiles/>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="debug_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
-			CharacterSet="1">
+			UseOfATL="0"
+			CharacterSet="1"
+			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\lib\* 1&gt;nul&#xA;exit 0"/>
+				CommandLine="xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\lib\* 1&gt;nul&#x0D;&#x0A;exit 0&#x0D;&#x0A;"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
-				AdditionalIncludeDirectories=".\include;..\openssl\build\include;..\Foundation\include"
+				AdditionalIncludeDirectories=".\include;..\Foundation\include;..\opensslwince\build\include;P:\tests\pocoCE.1.9.4\Crypto\wcecompat\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;$(ProjectName)_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;Crypto_EXPORTS"
 				StringPooling="true"
 				MinimalRebuild="false"
@@ -43,24 +55,25 @@
 				RuntimeTypeInfo="true"
 				WarningLevel="3"
 				DebugInformationFormat="3"
-				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+				DisableSpecificWarnings="4800"
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"/>
+				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/FORCE:MULTIPLE "
-				AdditionalDependencies="ws2_32.lib iphlpapi.lib"
+				AdditionalDependencies="ws2.lib iphlpapi.lib libcrypto.lib libssl.lib"
 				OutputFile="..\bin\$(PlatformName)\PocoCryptod.dll"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="..\lib\$(PlatformName)"
+				AdditionalLibraryDirectories="&quot;..\lib\$(PlatformName)&quot;;P:\tests\pocoCE.1.9.4\opensslwince\build\wince\lib\debug"
 				GenerateManifest="true"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="..\bin\$(PlatformName)\PocoCryptod.pdb"
@@ -71,47 +84,63 @@
 				EnableCOMDATFolding="0"
 				RandomizedBaseAddress="1"
 				ImportLibrary="..\lib\$(PlatformName)\PocoCryptod.lib"
-				TargetMachine="0"/>
+				TargetMachine="0"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_shared|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1&gt;nul&#xA;exit 0"/>
+				CommandLine="xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1&gt;nul&#x0D;&#x0A;exit 0&#x0D;&#x0A;"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -125,16 +154,17 @@
 				WarningLevel="3"
 				DebugInformationFormat="3"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"/>
+				PreprocessorDefinitions="_UNICODE;UNICODE;_WIN32_WCE"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/FORCE:MULTIPLE "
@@ -151,47 +181,63 @@
 				OptimizeReferences="0"
 				EnableCOMDATFolding="0"
 				ImportLibrary="..\lib\$(PlatformName)\PocoCrypto.lib"
-				TargetMachine="0"/>
+				TargetMachine="0"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="xcopy /y ..\openssl\build\win32\lib\debug\*.lib ..\lib\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\lib\debug\*.pdb ..\lib\* 1&gt;nul&#xA;exit 0"/>
+				CommandLine="xcopy /y ..\openssl\build\win32\lib\debug\*.lib ..\lib\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\lib\debug\*.pdb ..\lib\* 1&gt;nul&#x0D;&#x0A;exit 0&#x0D;&#x0A;"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\openssl\build\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;POCO_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;"
@@ -206,58 +252,75 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoCryptomtd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoCryptomtd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_static_mt|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="xcopy /y ..\openssl\build\win32\lib\release\*.lib ..\lib\* 1&gt;nul&#xA;exit 0"/>
+				CommandLine="xcopy /y ..\openssl\build\win32\lib\release\*.lib ..\lib\* 1&gt;nul&#x0D;&#x0A;exit 0&#x0D;&#x0A;"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -273,58 +336,75 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoCryptomt.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoCryptomt.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="debug_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\lib\* 1&gt;nul&#xA;exit 0"/>
+				CommandLine="xcopy /y ..\openssl\build\win32\bin\debug\*.dll ..\bin\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\bin\debug\*.lib ..\lib\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\bin\debug\*.pdb ..\lib\* 1&gt;nul&#x0D;&#x0A;exit 0&#x0D;&#x0A;"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="0"
 				AdditionalIncludeDirectories=".\include;..\openssl\build\include;..\Foundation\include"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE;POCO_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;"
@@ -339,58 +419,75 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoCryptomdd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoCryptomdd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 		<Configuration
 			Name="release_static_md|Toradex_CE700 (ARMv4I)"
 			OutputDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="obj\$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="4"
-			CharacterSet="1">
+			CharacterSet="1"
+			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				CommandLine="xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1&gt;nul&#xA;xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1&gt;nul&#xA;exit 0"/>
+				CommandLine="xcopy /y ..\openssl\build\win32\bin\release\*.dll ..\bin\* 1&gt;nul&#x0D;&#x0A;xcopy /y ..\openssl\build\win32\bin\release\*.lib ..\lib\* 1&gt;nul&#x0D;&#x0A;exit 0&#x0D;&#x0A;"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCXMLDataGeneratorTool"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				TargetEnvironment="1"/>
+				TargetEnvironment="1"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
+				AdditionalOptions=""
 				Optimization="4"
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
@@ -406,221 +503,340 @@
 				DebugInformationFormat="3"
 				CompileAs="0"
 				DisableSpecificWarnings="4800;"
-				CompileForArchitecture="2"
-				InterworkCalls="false"
-				AdditionalOptions=""/>
+			/>
 			<Tool
-				Name="VCManagedResourceCompilerTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\lib\$(PlatformName)\PocoCryptomd.lib"/>
+				OutputFile="..\lib\$(PlatformName)\PocoCryptomd.lib"
+			/>
 			<Tool
-				Name="VCALinkTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCXDCMakeTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCBscMakeTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCFxCopTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCCodeSignTool"/>
+				Name="VCCodeSignTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 			<DeploymentTool
 				ForceDirty="-1"
 				RemoteDirectory=""
 				RegisterOutput="0"
-				AdditionalFiles=""/>
-			<DebuggerTool/>
+				AdditionalFiles=""
+			/>
+			<DebuggerTool
+			/>
 		</Configuration>
 	</Configurations>
-	<References/>
+	<References>
+	</References>
 	<Files>
 		<Filter
-			Name="Cipher">
+			Name="Cipher"
+			>
 			<Filter
-				Name="Header Files">
+				Name="Header Files"
+				>
 				<File
-					RelativePath=".\include\Poco\Crypto\Cipher.h"/>
+					RelativePath=".\include\Poco\Crypto\Cipher.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CipherFactory.h"/>
+					RelativePath=".\include\Poco\Crypto\CipherFactory.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CipherImpl.h"/>
+					RelativePath=".\include\Poco\Crypto\CipherImpl.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CipherKey.h"/>
+					RelativePath=".\include\Poco\Crypto\CipherKey.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CipherKeyImpl.h"/>
+					RelativePath=".\include\Poco\Crypto\CipherKeyImpl.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CryptoStream.h"/>
+					RelativePath=".\include\Poco\Crypto\CryptoStream.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CryptoTransform.h"/>
+					RelativePath=".\include\Poco\Crypto\CryptoTransform.h"
+					>
+				</File>
 			</Filter>
 			<Filter
-				Name="Source Files">
+				Name="Source Files"
+				>
 				<File
-					RelativePath=".\src\Cipher.cpp"/>
+					RelativePath=".\src\Cipher.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\CipherFactory.cpp"/>
+					RelativePath=".\src\CipherFactory.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\CipherImpl.cpp"/>
+					RelativePath=".\src\CipherImpl.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\CipherKey.cpp"/>
+					RelativePath=".\src\CipherKey.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\CipherKeyImpl.cpp"/>
+					RelativePath=".\src\CipherKeyImpl.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\CryptoStream.cpp"/>
+					RelativePath=".\src\CryptoStream.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\CryptoTransform.cpp"/>
-			</Filter>
-		</Filter>
-		<Filter
-			Name="RSA">
-			<Filter
-				Name="Header Files">
-				<File
-					RelativePath=".\include\Poco\Crypto\RSACipherImpl.h"/>
-				<File
-					RelativePath=".\include\Poco\Crypto\RSADigestEngine.h"/>
-				<File
-					RelativePath=".\include\Poco\Crypto\RSAKey.h"/>
-				<File
-					RelativePath=".\include\Poco\Crypto\RSAKeyImpl.h"/>
-			</Filter>
-			<Filter
-				Name="Source Files">
-				<File
-					RelativePath=".\src\RSACipherImpl.cpp"/>
-				<File
-					RelativePath=".\src\RSADigestEngine.cpp"/>
-				<File
-					RelativePath=".\src\RSAKey.cpp"/>
-				<File
-					RelativePath=".\src\RSAKeyImpl.cpp"/>
-			</Filter>
-		</Filter>
-		<Filter
-			Name="Certificate">
-			<Filter
-				Name="Header Files">
-				<File
-					RelativePath=".\include\Poco\Crypto\PKCS12Container.h"/>
-				<File
-					RelativePath=".\include\Poco\Crypto\X509Certificate.h"/>
-			</Filter>
-			<Filter
-				Name="Source Files">
-				<File
-					RelativePath=".\src\PKCS12Container.cpp"/>
-				<File
-					RelativePath=".\src\X509Certificate.cpp"/>
+					RelativePath=".\src\CryptoTransform.cpp"
+					>
+				</File>
 			</Filter>
 		</Filter>
 		<Filter
-			Name="CryptoCore">
+			Name="RSA"
+			>
 			<Filter
-				Name="Header Files">
+				Name="Header Files"
+				>
 				<File
-					RelativePath=".\include\Poco\Crypto\Crypto.h"/>
+					RelativePath=".\include\Poco\Crypto\RSACipherImpl.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\CryptoException.h"/>
+					RelativePath=".\include\Poco\Crypto\RSADigestEngine.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\EVPPKey.h"/>
+					RelativePath=".\include\Poco\Crypto\RSAKey.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\KeyPair.h"/>
-				<File
-					RelativePath=".\include\Poco\Crypto\KeyPairImpl.h"/>
-				<File
-					RelativePath=".\include\Poco\Crypto\OpenSSLInitializer.h"/>
+					RelativePath=".\include\Poco\Crypto\RSAKeyImpl.h"
+					>
+				</File>
 			</Filter>
 			<Filter
-				Name="Source Files">
+				Name="Source Files"
+				>
 				<File
-					RelativePath=".\src\CryptoException.cpp"/>
+					RelativePath=".\src\RSACipherImpl.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\EVPPKey.cpp"/>
+					RelativePath=".\src\RSADigestEngine.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\KeyPair.cpp"/>
+					RelativePath=".\src\RSAKey.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\KeyPairImpl.cpp"/>
-				<File
-					RelativePath=".\src\OpenSSLInitializer.cpp"/>
+					RelativePath=".\src\RSAKeyImpl.cpp"
+					>
+				</File>
 			</Filter>
 		</Filter>
 		<Filter
-			Name="Digest">
+			Name="Certificate"
+			>
 			<Filter
-				Name="Header Files">
+				Name="Header Files"
+				>
 				<File
-					RelativePath=".\include\Poco\Crypto\DigestEngine.h"/>
+					RelativePath=".\include\Poco\Crypto\PKCS12Container.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\Poco\Crypto\X509Certificate.h"
+					>
+				</File>
 			</Filter>
 			<Filter
-				Name="Source Files">
+				Name="Source Files"
+				>
 				<File
-					RelativePath=".\src\DigestEngine.cpp"/>
+					RelativePath=".\src\PKCS12Container.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\src\X509Certificate.cpp"
+					>
+				</File>
 			</Filter>
 		</Filter>
 		<Filter
-			Name="EC">
+			Name="CryptoCore"
+			>
 			<Filter
-				Name="Header Files">
+				Name="Header Files"
+				>
 				<File
-					RelativePath=".\include\Poco\Crypto\ECDSADigestEngine.h"/>
+					RelativePath=".\include\Poco\Crypto\Crypto.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\ECKey.h"/>
+					RelativePath=".\include\Poco\Crypto\CryptoException.h"
+					>
+				</File>
 				<File
-					RelativePath=".\include\Poco\Crypto\ECKeyImpl.h"/>
+					RelativePath=".\include\Poco\Crypto\EVPPKey.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\Poco\Crypto\KeyPair.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\Poco\Crypto\KeyPairImpl.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\Poco\Crypto\OpenSSLInitializer.h"
+					>
+				</File>
 			</Filter>
 			<Filter
-				Name="Source Files">
+				Name="Source Files"
+				>
 				<File
-					RelativePath=".\src\ECDSADigestEngine.cpp"/>
+					RelativePath=".\src\CryptoException.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ECKey.cpp"/>
+					RelativePath=".\src\EVPPKey.cpp"
+					>
+				</File>
 				<File
-					RelativePath=".\src\ECKeyImpl.cpp"/>
+					RelativePath=".\src\KeyPair.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\src\KeyPairImpl.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\src\OpenSSLInitializer.cpp"
+					>
+				</File>
+			</Filter>
+		</Filter>
+		<Filter
+			Name="Digest"
+			>
+			<Filter
+				Name="Header Files"
+				>
+				<File
+					RelativePath=".\include\Poco\Crypto\DigestEngine.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Source Files"
+				>
+				<File
+					RelativePath=".\src\DigestEngine.cpp"
+					>
+				</File>
+			</Filter>
+		</Filter>
+		<Filter
+			Name="EC"
+			>
+			<Filter
+				Name="Header Files"
+				>
+				<File
+					RelativePath=".\include\Poco\Crypto\ECDSADigestEngine.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\Poco\Crypto\ECKey.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\Poco\Crypto\ECKeyImpl.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Source Files"
+				>
+				<File
+					RelativePath=".\src\ECDSADigestEngine.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\src\ECKey.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\src\ECKeyImpl.cpp"
+					>
+				</File>
 			</Filter>
 		</Filter>
 		<File
-			RelativePath="..\DLLVersion.rc">
-			<FileConfiguration
-				Name="debug_shared|Toradex_CE700 (ARMv4I)">
-				<Tool
-					Name="VCResourceCompilerTool"/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="release_shared|Toradex_CE700 (ARMv4I)">
-				<Tool
-					Name="VCResourceCompilerTool"/>
-			</FileConfiguration>
+			RelativePath="..\DLLVersion.rc"
+			>
 			<FileConfiguration
 				Name="debug_static_mt|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="release_static_mt|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="debug_static_md|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="release_static_md|Toradex_CE700 (ARMv4I)"
-				ExcludedFromBuild="true">
+				ExcludedFromBuild="true"
+				>
 				<Tool
-					Name="VCResourceCompilerTool"/>
+					Name="VCResourceCompilerTool"
+				/>
 			</FileConfiguration>
 		</File>
 	</Files>
-	<Globals/>
+	<Globals>
+	</Globals>
 </VisualStudioProject>
