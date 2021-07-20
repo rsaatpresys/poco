@@ -62,7 +62,8 @@ struct json_stack {
 static void json_error_s(json_stream *json, int err)
 {
     char errbuf[1024] = {0};
-    strerror_r(err, errbuf, sizeof(errbuf));
+	// TODO: WinCE  strerror_r not found 
+    // strerror_r(err, errbuf, sizeof(errbuf));
     json_error(json, "%s", errbuf);
 }
 
@@ -76,7 +77,8 @@ push(json_stream *json, enum json_type type)
         stack = (struct json_stack *) json->alloc.realloc(json->stack,
                 (json->stack_size + STACK_INC) * sizeof(*json->stack));
         if (stack == NULL) {
-            json_error_s(json, errno);
+            //TODO: WinCE  errno not found 
+			//json_error_s(json, errno);
             return JSON_ERROR;
         }
 
@@ -166,7 +168,8 @@ static int pushchar(json_stream *json, int c)
         size_t size = json->data.string_size * 2;
         char *buffer = (char*) json->alloc.realloc(json->data.string, size);
         if (buffer == NULL) {
-            json_error_s(json, errno);
+			//TODO: WinCE  errno not found 
+            //json_error_s(json, errno);
             return -1;
         } else {
             json->data.string_size = size;
@@ -184,7 +187,8 @@ static int init_string(json_stream *json)
         json->data.string_size = 1024;
         json->data.string = (char*) json->alloc.malloc(json->data.string_size);
         if (json->data.string == NULL) {
-            json_error_s(json, errno);
+			//TODO: WinCE  errno not found 
+            // json_error_s(json, errno);
             return -1;
         }
     }

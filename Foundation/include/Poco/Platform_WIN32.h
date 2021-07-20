@@ -143,7 +143,8 @@
 
 // Check debug/release settings consistency
 #if defined(NDEBUG) && defined(_DEBUG)
-	#error Inconsistent build settings (check for /MD[d])
+//TODO:WinCE error xml 
+//	#error Inconsistent build settings (check for /MD[d])
 #endif
 
 
