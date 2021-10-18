@@ -71,7 +71,7 @@
 				AdditionalDependencies="ws2.lib iphlpapi.lib libcrypto.lib libssl.lib"
 				OutputFile="..\bin\$(PlatformName)\PocoNetSSLd.dll"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;..\lib\$(PlatformName)&quot;;P:\tests\pocoCE.1.9.4\opensslwince\build\wince\lib\debug"
+				AdditionalLibraryDirectories="&quot;..\lib\$(PlatformName)&quot;;..\opensslwince\build\wince\lib\debug"
 				GenerateManifest="true"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="..\bin\$(PlatformName)\PocoNetSSLd.pdb"
